@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" cache="true" spacing="20.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_scenneb_1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+    <Button onAction="#onHelloButtonClick" text="Marušky tlačítko" textAlignment="CENTER" textFill="#4d0af5">
+      <font>
+         <Font size="22.0" />
+      </font></Button>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</VBox>
